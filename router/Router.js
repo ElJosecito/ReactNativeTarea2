@@ -13,6 +13,7 @@ import TablaScreen from "../src/components/TablaScreen";
 import VideoScreen from "../src/components/VideoScreen";
 import TraductorScreen from "../src/components/TraductorScreen";
 
+
 const Router = () => {
   return (
     <NavigationContainer>
@@ -21,7 +22,7 @@ const Router = () => {
         initialRouteName="Home"
         screenOptions={{
           headerStyle: {
-            backgroundColor: "#f4511e",
+            backgroundColor: "#67AAF9",
           },
           headerTintColor: "#fff",
           headerTitleStyle: {
