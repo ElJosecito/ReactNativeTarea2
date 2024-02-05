@@ -17,7 +17,7 @@ const TablaScreen = () => {
     setNumero(Number(numero));
   };
 
-  handleBtn = () => {
+  const handleBtn = () => {
     if (tabla === 0) {
       setTabla(12);
       Keyboard.dismiss();
@@ -36,11 +36,6 @@ const TablaScreen = () => {
           placeholder="Ingrese un numero"
           keyboardType="numeric"
         />
-        {/* <Pressable style={styles.btn} onPress={handleBtn}>
-          <Text style={{ color: "white", textAlign: "center" }}>
-            Generar Tabla
-          </Text>
-        </Pressable> */}
         {
           tabla === 0 ? (
             <Pressable style={styles.btn} onPress={handleBtn}>
