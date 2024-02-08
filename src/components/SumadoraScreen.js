@@ -10,8 +10,6 @@ const SumadoraScreen = () => {
 
   //handlers
   const handleNumero1 = (numero) => {
-  
-    console.log(numero);
     setNumero1(Number(numero));
   };
 
