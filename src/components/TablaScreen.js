@@ -19,7 +19,7 @@ const TablaScreen = () => {
 
   const handleBtn = () => {
     if (tabla === 0) {
-      setTabla(12);
+      setTabla(13);
       Keyboard.dismiss();
     } else {
       setTabla(0);

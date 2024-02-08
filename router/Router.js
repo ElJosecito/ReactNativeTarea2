@@ -10,7 +10,7 @@ import HomeScreen from "../src/components/HomeScreen";
 import DetailsScreen from "../src/components/DetailsScreen";
 import SumadoraScreen from "../src/components/SumadoraScreen";
 import TablaScreen from "../src/components/TablaScreen";
-import VideoScreen from "../src/components/VideoScreen";
+import VideoPage from "../src/components/VideoPage";
 import TraductorScreen from "../src/components/TraductorScreen";
 
 
@@ -36,7 +36,7 @@ const Router = () => {
         <Stack.Screen name="Sumadora" component={SumadoraScreen} />
         <Stack.Screen name="Tabla" component={TablaScreen} />
         <Stack.Screen name="Traductor" component={TraductorScreen} />
-        <Stack.Screen name="Video" component={VideoScreen} />
+        <Stack.Screen name="Video" component={VideoPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );
